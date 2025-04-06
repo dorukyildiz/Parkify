@@ -1,0 +1,17 @@
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/bin/Debug/net8.0/ParkifyAPI.DataAccess.deps.json
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/bin/Debug/net8.0/ParkifyAPI.DataAccess.dll
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/bin/Debug/net8.0/ParkifyAPI.DataAccess.pdb
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/bin/Debug/net8.0/ParkifyAPI.Common.dll
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/bin/Debug/net8.0/ParkifyAPI.Data.dll
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/bin/Debug/net8.0/ParkifyAPI.Common.pdb
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/bin/Debug/net8.0/ParkifyAPI.Data.pdb
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/ParkifyAPI.DataAccess.csproj.AssemblyReference.cache
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/ParkifyAPI.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/ParkifyAPI.DataAccess.AssemblyInfoInputs.cache
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/ParkifyAPI.DataAccess.AssemblyInfo.cs
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/ParkifyAPI.DataAccess.csproj.CoreCompileInputs.cache
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/ParkifyA.662F84F1.Up2Date
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/ParkifyAPI.DataAccess.dll
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/refint/ParkifyAPI.DataAccess.dll
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/ParkifyAPI.DataAccess.pdb
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/ref/ParkifyAPI.DataAccess.dll

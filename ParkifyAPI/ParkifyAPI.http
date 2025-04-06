@@ -1,0 +1,6 @@
+@ParkifyAPI_HostAddress = http://localhost:5181
+
+GET {{ParkifyAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
