@@ -8,6 +8,7 @@ namespace ParkifyAPI.Data.Contexts
         public ParkifyDbContext(DbContextOptions<ParkifyDbContext> options) : base(options) { }
 
         public DbSet<ParkingSpace> ParkingSpaces { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -16,6 +17,11 @@ namespace ParkifyAPI.Data.Contexts
             modelBuilder.Entity<ParkingSpace>()
                 .ToTable("Parking_Spaces")
                 .HasKey(ps => new { ps.SpaceNumber, ps.LotId });
+
+            modelBuilder.Entity<User>()
+                .ToTable("Users");
         }
     }
+
+
 }
