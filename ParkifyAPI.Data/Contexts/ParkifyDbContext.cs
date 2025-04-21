@@ -9,6 +9,8 @@ namespace ParkifyAPI.Data.Contexts
 
         public DbSet<ParkingSpace> ParkingSpaces { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Administrator> Administrators { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -20,6 +22,10 @@ namespace ParkifyAPI.Data.Contexts
 
             modelBuilder.Entity<User>()
                 .ToTable("Users");
+            
+            modelBuilder.Entity<Administrator>()
+                .ToTable("Administrators");
+
         }
     }
 
