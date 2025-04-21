@@ -15,3 +15,4 @@
 /Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Data/obj/Debug/net8.0/ParkifyAPI.Data.pdb
 /Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Data/obj/Debug/net8.0/ParkifyAPI.Data.genruntimeconfig.cache
 /Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Data/obj/Debug/net8.0/ref/ParkifyAPI.Data.dll
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Data/obj/Debug/net8.0/ParkifyAPI.Data.sourcelink.json

@@ -15,3 +15,4 @@
 /Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/refint/ParkifyAPI.DataAccess.dll
 /Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/ParkifyAPI.DataAccess.pdb
 /Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/ref/ParkifyAPI.DataAccess.dll
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.DataAccess/obj/Debug/net8.0/ParkifyAPI.DataAccess.sourcelink.json

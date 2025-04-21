@@ -133,3 +133,4 @@
 /Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll
 /Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/bin/Debug/net8.0/System.Security.Cryptography.Xml.dll
 /Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/obj/Debug/net8.0/ParkifyAPI.sourcelink.json

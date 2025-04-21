@@ -10,3 +10,4 @@
 /Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Debug/net8.0/ParkifyAPI.Common.pdb
 /Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Debug/net8.0/ref/ParkifyAPI.Common.dll
 /Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Debug/net8.0/ParkifyAPI.Common.csproj.AssemblyReference.cache
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Debug/net8.0/ParkifyAPI.Common.sourcelink.json
