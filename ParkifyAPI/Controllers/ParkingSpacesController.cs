@@ -55,39 +55,46 @@ namespace ParkifyAPI.Controllers
         }
 
         [HttpPut("ReserveParkingSpace")]
-        public async Task<IActionResult> ReserveParkingSpace(int lotId, string spaceNumber, string plateNumber)
+        public async Task<IActionResult> ReserveParkingSpace(string email, int lotId, string spaceNumber)
         {
-            // 1) Aynı plakaya ait hâlihazırda bir rezervasyon var mı?
-            var existingReservations = await _parkingSpacesRepository
-                .FindAsync(ps => ps.PlateNumber == plateNumber && ps.IsReserved);
+            // 1. Kullanıcıyı e-posta ile bul
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
 
-            if (existingReservations.Any())
+            if (user == null)
             {
-                return BadRequest("You already have an active reservation.");
+                return NotFound($"User with email '{email}' not found.");
             }
 
-            // 2) Rezervelenmek istenen yeri al
-            var parkingSpace = (await _parkingSpacesRepository
-                    .FindAsync(ps => ps.LotId == lotId && ps.SpaceNumber == spaceNumber))
-                .FirstOrDefault();
+            // 2. Park yerini bul (lotId + spaceNumber)
+            var parkingSpaces = await _parkingSpacesRepository.FindAsync(ps => ps.LotId == lotId && ps.SpaceNumber == spaceNumber);
+            var parkingSpace = parkingSpaces.FirstOrDefault();
 
             if (parkingSpace == null)
-                return NotFound($"Lot {lotId}, space {spaceNumber} not found.");
+            {
+                return NotFound($"Parking space '{spaceNumber}' not found in lot {lotId}.");
+            }
 
+            // 3. Uygunluk kontrolü
             if (parkingSpace.IsOccupied)
-                return BadRequest($"Space {spaceNumber} is occupied.");
+            {
+                return BadRequest($"Parking space '{spaceNumber}' is currently occupied.");
+            }
 
             if (parkingSpace.IsReserved)
-                return BadRequest($"Space {spaceNumber} is already reserved.");
+            {
+                return BadRequest($"Parking space '{spaceNumber}' is already reserved.");
+            }
 
-            // 3) Rezervasyonu yap
+            // 4. Rezervasyonu yap
             parkingSpace.IsReserved = true;
-            parkingSpace.PlateNumber = plateNumber;
+            parkingSpace.PlateNumber = user.LicensePlate;
+
             await _parkingSpacesRepository.UpdateAsync(parkingSpace);
 
-            return Ok($"Space {spaceNumber} successfully reserved for {plateNumber}.");
+            return Ok($"Parking space '{spaceNumber}' reserved for plate: {user.LicensePlate}.");
         }
-        
+
+
         [HttpGet("GetAllReservedParkingSpaces")]
         public async Task<IActionResult> GetAllReservedParkingSpaces()
         {
