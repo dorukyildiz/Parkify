@@ -46,7 +46,11 @@ namespace ParkifyAPI.Controllers
             if (user == null || user.Password != loginInput.Password)
                 return Unauthorized();
 
-            return Ok(); 
+            return Ok(new
+            {
+                email = user.Email,
+                licensePlate = user.LicensePlate
+            });
         }
 
 
