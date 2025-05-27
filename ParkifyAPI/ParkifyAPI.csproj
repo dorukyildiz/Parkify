@@ -23,4 +23,8 @@
       <ProjectReference Include="..\ParkifyAPI.Data\ParkifyAPI.Data.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="wwwroot\" />
+    </ItemGroup>
+
 </Project>

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/a6e0f607-c858-4fce-bd20-367a35a570bf.jpg",
+      "PackagePath": "staticwebassets/images/complaints/a6e0f607-c858-4fce-bd20-367a35a570bf.jpg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ParkifyAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ParkifyAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.ParkifyAPI.props",
+      "PackagePath": "build\\ParkifyAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ParkifyAPI.props",
+      "PackagePath": "buildMultiTargeting\\ParkifyAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ParkifyAPI.props",
+      "PackagePath": "buildTransitive\\ParkifyAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -57,41 +57,51 @@ namespace ParkifyAPI.Controllers
         [HttpPut("ReserveParkingSpace")]
         public async Task<IActionResult> ReserveParkingSpace(string email, int lotId, string spaceNumber)
         {
-            // 1. Kullanıcıyı e-posta ile bul
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
-
             if (user == null)
-            {
                 return NotFound($"User with email '{email}' not found.");
-            }
 
-            // 2. Park yerini bul (lotId + spaceNumber)
-            var parkingSpaces = await _parkingSpacesRepository.FindAsync(ps => ps.LotId == lotId && ps.SpaceNumber == spaceNumber);
-            var parkingSpace = parkingSpaces.FirstOrDefault();
+            // Aktif rezervasyonu var mı?
+            var now = DateTime.UtcNow;
+            bool hasActiveReservation = await _context.Reservations
+                .AnyAsync(r => r.UserId == user.Id && r.IsActive && r.EndTime > now);
+
+            if (hasActiveReservation)
+                return BadRequest("You already have an active reservation.");
+
+            // Park yeri uygun mu?
+            var parkingSpace = (await _parkingSpacesRepository.FindAsync(
+                ps => ps.LotId == lotId && ps.SpaceNumber == spaceNumber)).FirstOrDefault();
 
             if (parkingSpace == null)
-            {
                 return NotFound($"Parking space '{spaceNumber}' not found in lot {lotId}.");
-            }
 
-            // 3. Uygunluk kontrolü
             if (parkingSpace.IsOccupied)
-            {
                 return BadRequest($"Parking space '{spaceNumber}' is currently occupied.");
-            }
 
             if (parkingSpace.IsReserved)
-            {
                 return BadRequest($"Parking space '{spaceNumber}' is already reserved.");
-            }
 
-            // 4. Rezervasyonu yap
+            // Rezervasyonu yap
             parkingSpace.IsReserved = true;
             parkingSpace.PlateNumber = user.LicensePlate;
-
             await _parkingSpacesRepository.UpdateAsync(parkingSpace);
 
-            return Ok($"Parking space '{spaceNumber}' reserved for plate: {user.LicensePlate}.");
+            // Reservations tablosuna da ekle (15 dakika süreli)
+            var reservation = new Reservation
+            {
+                UserId = user.Id,
+                LotId = lotId,
+                SpaceNumber = spaceNumber,
+                StartTime = now,
+                EndTime = now.AddMinutes(15),
+                IsActive = true
+            };
+
+            _context.Reservations.Add(reservation);
+            await _context.SaveChangesAsync();
+
+            return Ok($"Parking space '{spaceNumber}' reserved for plate: {user.LicensePlate} (15 minutes).");
         }
 
 

@@ -4,6 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using ParkifyAPI.Data.Contexts;
 using ParkifyAPI.DataAccess.Concrete;
 using ParkifyAPI.DataAccess.Interfaces;
+using ParkifyAPI.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -31,6 +32,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddHostedService<ReservationCleanupService>();
+
 
 builder.Services.AddCors(options =>
 {
@@ -60,11 +64,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseStaticFiles();
+
 app.UseHttpsRedirection();
 
 app.UseCors("AllowAll");
 
-app.UseAuthentication(); // << Önemli: Auth sırası doğru olmalı
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
