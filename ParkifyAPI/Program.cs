@@ -1,14 +1,36 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using ParkifyAPI.Data.Contexts;
 using ParkifyAPI.DataAccess.Concrete;
 using ParkifyAPI.DataAccess.Interfaces;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// JWT yapılandırması
+var jwtKey = builder.Configuration["Jwt:Key"];
+var jwtIssuer = builder.Configuration["Jwt:Issuer"];
+var jwtAudience = builder.Configuration["Jwt:Audience"];
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = jwtIssuer,
+            ValidAudience = jwtAudience,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
+        };
+    });
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 
 builder.Services.AddCors(options =>
 {
@@ -20,9 +42,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-
 
 builder.Services.AddDbContext<ParkifyDbContext>(options =>
     options.UseMySql(
@@ -33,7 +53,7 @@ builder.Services.AddDbContext<ParkifyDbContext>(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Middleware pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -44,6 +64,7 @@ app.UseHttpsRedirection();
 
 app.UseCors("AllowAll");
 
+app.UseAuthentication(); // << Önemli: Auth sırası doğru olmalı
 app.UseAuthorization();
 
 app.MapControllers();
