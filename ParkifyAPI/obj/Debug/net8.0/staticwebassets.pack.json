@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/a6e0f607-c858-4fce-bd20-367a35a570bf.jpg",
-      "PackagePath": "staticwebassets/images/complaints/a6e0f607-c858-4fce-bd20-367a35a570bf.jpg"
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/d1d6dd8e-ef67-4533-a703-2505c0e3c467.jpg",
+      "PackagePath": "staticwebassets/images/complaints/d1d6dd8e-ef67-4533-a703-2505c0e3c467.jpg"
+    },
+    {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/e22bae91-182d-4c07-9e2d-a220342b57f6.jpg",
+      "PackagePath": "staticwebassets/images/complaints/e22bae91-182d-4c07-9e2d-a220342b57f6.jpg"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ParkifyAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

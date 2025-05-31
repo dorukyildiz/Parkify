@@ -1,11 +1,29 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\a6e0f607-c858-4fce-bd20-367a35a570bf.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\d1d6dd8e-ef67-4533-a703-2505c0e3c467.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ParkifyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ParkifyAPI</BasePath>
-      <RelativePath>images/complaints/a6e0f607-c858-4fce-bd20-367a35a570bf.jpg</RelativePath>
+      <RelativePath>images/complaints/d1d6dd8e-ef67-4533-a703-2505c0e3c467.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zhukbvc421</Fingerprint>
+      <Integrity>maGJQ3dSTZvaKyHQ1iOoOgGiaWUTm0BPbr0tnUGJDyI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\d1d6dd8e-ef67-4533-a703-2505c0e3c467.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\e22bae91-182d-4c07-9e2d-a220342b57f6.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ParkifyAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ParkifyAPI</BasePath>
+      <RelativePath>images/complaints/e22bae91-182d-4c07-9e2d-a220342b57f6.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -16,7 +34,7 @@
       <Integrity>r4lAQZUVHBViheQkGey62wWNM1bjja6RoCXvzM9O64Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\a6e0f607-c858-4fce-bd20-367a35a570bf.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\e22bae91-182d-4c07-9e2d-a220342b57f6.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
