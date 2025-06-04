@@ -1,40 +1,40 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\d1d6dd8e-ef67-4533-a703-2505c0e3c467.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ParkifyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ParkifyAPI</BasePath>
-      <RelativePath>images/complaints/d1d6dd8e-ef67-4533-a703-2505c0e3c467.jpg</RelativePath>
+      <RelativePath>images/complaints/25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zhukbvc421</Fingerprint>
-      <Integrity>maGJQ3dSTZvaKyHQ1iOoOgGiaWUTm0BPbr0tnUGJDyI=</Integrity>
+      <Fingerprint>k8i63tywok</Fingerprint>
+      <Integrity>1DgWXiZjQXNIqnT25qg+G+Vm2pQl2lDJwKKhCHvTfAU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\d1d6dd8e-ef67-4533-a703-2505c0e3c467.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\e22bae91-182d-4c07-9e2d-a220342b57f6.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ParkifyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ParkifyAPI</BasePath>
-      <RelativePath>images/complaints/e22bae91-182d-4c07-9e2d-a220342b57f6.jpg</RelativePath>
+      <RelativePath>images/complaints/98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ney6mc5za8</Fingerprint>
-      <Integrity>r4lAQZUVHBViheQkGey62wWNM1bjja6RoCXvzM9O64Y=</Integrity>
+      <Fingerprint>k8i63tywok</Fingerprint>
+      <Integrity>1DgWXiZjQXNIqnT25qg+G+Vm2pQl2lDJwKKhCHvTfAU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\e22bae91-182d-4c07-9e2d-a220342b57f6.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

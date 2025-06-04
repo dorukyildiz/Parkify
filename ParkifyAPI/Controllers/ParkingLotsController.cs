@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ParkifyAPI.Data.Contexts;
 using System.Linq;
+using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace ParkifyAPI.Controllers
 {
@@ -15,17 +18,49 @@ namespace ParkifyAPI.Controllers
             _context = context;
         }
 
+        // Tüm otoparkları döner (kat bilgisi ve layout dahil)
         [HttpGet]
-        public IActionResult GetAllLots()
+        public async Task<IActionResult> GetAllLots()
         {
-            var lots = _context.ParkingLots
-                .Select(lot => new
-                {
-                    lot.LotId,
-                    lot.Name
-                }).ToList();
+            var lots = await _context.ParkingLots.ToListAsync();
 
-            return Ok(lots);
+            var result = lots.Select(lot => new
+            {
+                lot.LotId,
+                lot.Name,
+                lot.Location,
+                lot.TotalSpots,
+                lot.NumOfFloors,
+                Layout = string.IsNullOrEmpty(lot.Layout)
+                    ? null
+                    : JsonSerializer.Deserialize<object>(lot.Layout) // JSON'u nesne olarak döner
+            });
+
+            return Ok(result);
+        }
+
+        // Belirli bir otoparkı ID'ye göre döner (kat bilgisi ve layout dahil)
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetLotById(int id)
+        {
+            var lot = await _context.ParkingLots.FindAsync(id);
+
+            if (lot == null)
+                return NotFound("Otopark bulunamadı.");
+
+            var result = new
+            {
+                lot.LotId,
+                lot.Name,
+                lot.Location,
+                lot.TotalSpots,
+                lot.NumOfFloors,
+                Layout = string.IsNullOrEmpty(lot.Layout)
+                    ? null
+                    : JsonSerializer.Deserialize<object>(lot.Layout)
+            };
+
+            return Ok(result);
         }
     }
 }

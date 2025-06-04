@@ -138,6 +138,33 @@ namespace ParkifyAPI.Controllers
 
             return Ok("Complaint marked as resolved.");
         }
+        
+        
+        [HttpGet("GetByUser/{userEmail}")]
+        public async Task<IActionResult> GetComplaintsByUser(string userEmail)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == userEmail);
+            if (user == null)
+                return Unauthorized("User not found.");
+
+            var complaints = await _context.Complaints
+                .Where(c => c.UserId == user.Id)
+                .OrderByDescending(c => c.CreatedAt)
+                .ToListAsync();
+
+            var result = complaints.Select(c => new
+            {
+                c.Id,
+                c.LicensePlateDetected,
+                c.SpaceNumber,
+                c.ImagePath,
+                c.CreatedAt,
+                Status = c.IsResolved ? "Resolved" : "Pending"
+            });
+
+            return Ok(result);
+        }
+
 
 
 

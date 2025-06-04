@@ -12,5 +12,17 @@ namespace ParkifyAPI.Common.Model
 
         [Column("name")]
         public string Name { get; set; }
+
+        [Column("location")]
+        public string Location { get; set; }
+
+        [Column("total_spots")]
+        public int TotalSpots { get; set; }
+
+        [Column("num_of_floors")]
+        public int NumOfFloors { get; set; }
+
+        [Column("layout", TypeName = "json")]
+        public string Layout { get; set; }
     }
 }

@@ -108,6 +108,17 @@ namespace ParkifyAPI.Controllers
 
             return Ok(result);
         }
+        
+        [HttpGet("GetTotalPointsByPlate/{plate}")]
+        public async Task<IActionResult> GetTotalPointsByPlate(string plate)
+        {
+            var totalPoints = await _context.Penalties
+                .Where(p => p.PlateNumber == plate)
+                .SumAsync(p => (int?)p.PenaltyPoints) ?? 0;
+
+            return Ok(new { plate, totalPoints });
+        }
+
 
 
     }

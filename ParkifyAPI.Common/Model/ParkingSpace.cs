@@ -12,6 +12,9 @@ namespace ParkifyAPI.Common.Model
         [Column("space_number")]
         public string SpaceNumber { get; set; }
         
+        [Column("floor_number")]
+        public int FloorNumber { get; set; }
+        
         [Column("is_occupied")]
         public bool IsOccupied { get; set; }
         
