@@ -1,5 +1,59 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ParkifyAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ParkifyAPI</BasePath>
+      <RelativePath>images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nftv4tl7xi</Fingerprint>
+      <Integrity>PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ParkifyAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ParkifyAPI</BasePath>
+      <RelativePath>images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nftv4tl7xi</Fingerprint>
+      <Integrity>PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\24ad4214-84f2-4bb8-b673-888011b8bc31.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ParkifyAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ParkifyAPI</BasePath>
+      <RelativePath>images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nftv4tl7xi</Fingerprint>
+      <Integrity>PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\24ad4214-84f2-4bb8-b673-888011b8bc31.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ParkifyAPI</SourceId>
@@ -18,6 +72,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ParkifyAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ParkifyAPI</BasePath>
+      <RelativePath>images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nftv4tl7xi</Fingerprint>
+      <Integrity>PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ParkifyAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ParkifyAPI</BasePath>
+      <RelativePath>images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nftv4tl7xi</Fingerprint>
+      <Integrity>PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ParkifyAPI</SourceId>
@@ -35,6 +125,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\fde6e059-e256-45c1-890e-11c63d582985.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ParkifyAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ParkifyAPI</BasePath>
+      <RelativePath>images/complaints/fde6e059-e256-45c1-890e-11c63d582985.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nftv4tl7xi</Fingerprint>
+      <Integrity>PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\fde6e059-e256-45c1-890e-11c63d582985.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

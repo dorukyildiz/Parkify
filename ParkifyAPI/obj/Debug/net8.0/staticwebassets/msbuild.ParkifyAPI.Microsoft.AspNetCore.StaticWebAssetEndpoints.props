@@ -1,5 +1,41 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1093773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Jun 2025 05:34:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.nftv4tl7xi.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nftv4tl7xi"},{"Name":"integrity","Value":"sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns="},{"Name":"label","Value":"_content/ParkifyAPI/images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1093773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Jun 2025 05:34:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1093773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Jun 2025 05:39:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad.nftv4tl7xi.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nftv4tl7xi"},{"Name":"integrity","Value":"sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns="},{"Name":"label","Value":"_content/ParkifyAPI/images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1093773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Jun 2025 05:39:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\24ad4214-84f2-4bb8-b673-888011b8bc31.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1093773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 15:31:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31.nftv4tl7xi.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\24ad4214-84f2-4bb8-b673-888011b8bc31.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nftv4tl7xi"},{"Name":"integrity","Value":"sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns="},{"Name":"label","Value":"_content/ParkifyAPI/images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1093773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 15:31:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -12,6 +48,30 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k8i63tywok"},{"Name":"integrity","Value":"sha256-1DgWXiZjQXNIqnT25qg\u002BG\u002BVm2pQl2lDJwKKhCHvTfAU="},{"Name":"label","Value":"_content/ParkifyAPI/images/complaints/25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1769183"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221DgWXiZjQXNIqnT25qg\u002BG\u002BVm2pQl2lDJwKKhCHvTfAU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 10:55:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1093773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Jun 2025 05:46:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b.nftv4tl7xi.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nftv4tl7xi"},{"Name":"integrity","Value":"sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns="},{"Name":"label","Value":"_content/ParkifyAPI/images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1093773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Jun 2025 05:46:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1093773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Jun 2025 05:37:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.nftv4tl7xi.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nftv4tl7xi"},{"Name":"integrity","Value":"sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns="},{"Name":"label","Value":"_content/ParkifyAPI/images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1093773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Jun 2025 05:37:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -23,6 +83,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k8i63tywok"},{"Name":"integrity","Value":"sha256-1DgWXiZjQXNIqnT25qg\u002BG\u002BVm2pQl2lDJwKKhCHvTfAU="},{"Name":"label","Value":"_content/ParkifyAPI/images/complaints/98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1769183"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221DgWXiZjQXNIqnT25qg\u002BG\u002BVm2pQl2lDJwKKhCHvTfAU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 10:48:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/fde6e059-e256-45c1-890e-11c63d582985.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\fde6e059-e256-45c1-890e-11c63d582985.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1093773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Jun 2025 06:22:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkifyAPI/images/complaints/fde6e059-e256-45c1-890e-11c63d582985.nftv4tl7xi.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\complaints\fde6e059-e256-45c1-890e-11c63d582985.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nftv4tl7xi"},{"Name":"integrity","Value":"sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns="},{"Name":"label","Value":"_content/ParkifyAPI/images/complaints/fde6e059-e256-45c1-890e-11c63d582985.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1093773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV\u002Bw2lw6a3Ns=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Jun 2025 06:22:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

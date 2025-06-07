@@ -22,11 +22,18 @@ namespace ParkifyAPI.Controllers
             _configuration = configuration;
         }
 
+        // DTO Model for login
+        public class LoginRequest
+        {
+            public string Email { get; set; }
+            public string Password { get; set; }
+        }
+
         [HttpPost("register")]
         public IActionResult Register([FromBody] User userInput)
         {
             if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+                return BadRequest("Invalid input.");
 
             var existingUser = _context.Users.FirstOrDefault(u =>
                 u.Email == userInput.Email || u.LicensePlate == userInput.LicensePlate);
@@ -48,10 +55,10 @@ namespace ParkifyAPI.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login([FromBody] User loginInput)
+        public IActionResult Login([FromBody] LoginRequest loginInput)
         {
             if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+                return BadRequest("Invalid input.");
 
             var user = _context.Users.FirstOrDefault(u => u.Email == loginInput.Email);
             if (user == null || !BCrypt.Net.BCrypt.Verify(loginInput.Password, user.Password))

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0KoH6VwgMEtnWUL7fiam5gVYy3zfDfPIzVsS9a//Ptg=",
+  "Hash": "Bp42rbC+WiTClHbh1OWV1LQtVRR5/dvt14G/LaN3xXw=",
   "Source": "ParkifyAPI",
   "BasePath": "_content/ParkifyAPI",
   "Mode": "Default",
@@ -16,6 +16,69 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg",
+      "SourceId": "ParkifyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/",
+      "BasePath": "_content/ParkifyAPI",
+      "RelativePath": "images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nftv4tl7xi",
+      "Integrity": "PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg"
+    },
+    {
+      "Identity": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg",
+      "SourceId": "ParkifyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/",
+      "BasePath": "_content/ParkifyAPI",
+      "RelativePath": "images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nftv4tl7xi",
+      "Integrity": "PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg"
+    },
+    {
+      "Identity": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31.jpg",
+      "SourceId": "ParkifyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/",
+      "BasePath": "_content/ParkifyAPI",
+      "RelativePath": "images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nftv4tl7xi",
+      "Integrity": "PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31.jpg"
+    },
     {
       "Identity": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg",
       "SourceId": "ParkifyAPI",
@@ -38,6 +101,48 @@
       "OriginalItemSpec": "wwwroot/images/complaints/25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg"
     },
     {
+      "Identity": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg",
+      "SourceId": "ParkifyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/",
+      "BasePath": "_content/ParkifyAPI",
+      "RelativePath": "images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nftv4tl7xi",
+      "Integrity": "PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg"
+    },
+    {
+      "Identity": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg",
+      "SourceId": "ParkifyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/",
+      "BasePath": "_content/ParkifyAPI",
+      "RelativePath": "images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nftv4tl7xi",
+      "Integrity": "PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg"
+    },
+    {
       "Identity": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg",
       "SourceId": "ParkifyAPI",
       "SourceType": "Discovered",
@@ -57,9 +162,276 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/complaints/98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg"
+    },
+    {
+      "Identity": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/fde6e059-e256-45c1-890e-11c63d582985.jpg",
+      "SourceId": "ParkifyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/",
+      "BasePath": "_content/ParkifyAPI",
+      "RelativePath": "images/complaints/fde6e059-e256-45c1-890e-11c63d582985#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nftv4tl7xi",
+      "Integrity": "PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/complaints/fde6e059-e256-45c1-890e-11c63d582985.jpg"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg",
+      "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 05:34:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns="
+        }
+      ]
+    },
+    {
+      "Route": "images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.nftv4tl7xi.jpg",
+      "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 05:34:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nftv4tl7xi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns="
+        }
+      ]
+    },
+    {
+      "Route": "images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg",
+      "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 05:39:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns="
+        }
+      ]
+    },
+    {
+      "Route": "images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad.nftv4tl7xi.jpg",
+      "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 05:39:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nftv4tl7xi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns="
+        }
+      ]
+    },
+    {
+      "Route": "images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31.jpg",
+      "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Jun 2025 15:31:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns="
+        }
+      ]
+    },
+    {
+      "Route": "images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31.nftv4tl7xi.jpg",
+      "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Jun 2025 15:31:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nftv4tl7xi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns="
+        }
+      ]
+    },
     {
       "Route": "images/complaints/25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg",
       "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg",
@@ -143,6 +515,170 @@
       ]
     },
     {
+      "Route": "images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg",
+      "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 05:46:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns="
+        }
+      ]
+    },
+    {
+      "Route": "images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b.nftv4tl7xi.jpg",
+      "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 05:46:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nftv4tl7xi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns="
+        }
+      ]
+    },
+    {
+      "Route": "images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg",
+      "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 05:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns="
+        }
+      ]
+    },
+    {
+      "Route": "images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.nftv4tl7xi.jpg",
+      "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 05:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nftv4tl7xi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns="
+        }
+      ]
+    },
+    {
       "Route": "images/complaints/98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg",
       "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg",
       "Selectors": [],
@@ -221,6 +757,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1DgWXiZjQXNIqnT25qg+G+Vm2pQl2lDJwKKhCHvTfAU="
+        }
+      ]
+    },
+    {
+      "Route": "images/complaints/fde6e059-e256-45c1-890e-11c63d582985.jpg",
+      "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/fde6e059-e256-45c1-890e-11c63d582985.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 06:22:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns="
+        }
+      ]
+    },
+    {
+      "Route": "images/complaints/fde6e059-e256-45c1-890e-11c63d582985.nftv4tl7xi.jpg",
+      "AssetFile": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/fde6e059-e256-45c1-890e-11c63d582985.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 06:22:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nftv4tl7xi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/complaints/fde6e059-e256-45c1-890e-11c63d582985.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PTHVMzyYD3mlLbC6POQZ9Smng4E9i6fGV+w2lw6a3Ns="
         }
       ]
     }

@@ -17,6 +17,9 @@ namespace ParkifyAPI.Data.Contexts
         public DbSet<Complaint> Complaints { get; set; }
         
         public DbSet<Penalty> Penalties { get; set; }
+        
+        public DbSet<FavoriteParkingLot> FavoriteParkingLots { get; set; }
+
 
         
 
@@ -41,6 +44,33 @@ namespace ParkifyAPI.Data.Contexts
             modelBuilder.Entity<Complaint>().ToTable("Complaints");
             
             modelBuilder.Entity<Penalty>().ToTable("Penalties");
+            
+            modelBuilder.Entity<FavoriteParkingLot>()
+                .ToTable("FavoriteParkingLots")
+                .HasKey(f => f.Id);
+
+            modelBuilder.Entity<FavoriteParkingLot>()
+                .Property(f => f.Id)
+                .HasColumnName("id");
+
+            modelBuilder.Entity<FavoriteParkingLot>()
+                .Property(f => f.UserId)
+                .HasColumnName("user_id");
+
+            modelBuilder.Entity<FavoriteParkingLot>()
+                .Property(f => f.LotId)
+                .HasColumnName("lot_id");
+
+            modelBuilder.Entity<FavoriteParkingLot>()
+                .HasOne(f => f.User)
+                .WithMany()
+                .HasForeignKey(f => f.UserId);
+
+            modelBuilder.Entity<FavoriteParkingLot>()
+                .HasOne(f => f.Lot)
+                .WithMany()
+                .HasForeignKey(f => f.LotId);
+
         }
     }
 

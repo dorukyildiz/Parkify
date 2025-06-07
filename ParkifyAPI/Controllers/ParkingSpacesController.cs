@@ -61,7 +61,7 @@ namespace ParkifyAPI.Controllers
             if (user == null)
                 return NotFound($"User with email '{email}' not found.");
 
-            // Aktif rezervasyonu var mı?
+            // Aktif rezervasyon kontrolü
             var now = DateTime.UtcNow;
             bool hasActiveReservation = await _context.Reservations
                 .AnyAsync(r => r.UserId == user.Id && r.IsActive && r.EndTime > now);
@@ -87,7 +87,7 @@ namespace ParkifyAPI.Controllers
             parkingSpace.PlateNumber = user.LicensePlate;
             await _parkingSpacesRepository.UpdateAsync(parkingSpace);
 
-            // Reservations tablosuna da ekle (15 dakika süreli)
+            // Reservations tablosuna ekle (15 dakika süreli)
             var reservation = new Reservation
             {
                 UserId = user.Id,
