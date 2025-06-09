@@ -39,11 +39,11 @@ namespace ParkifyAPI.Data.Contexts
             
             modelBuilder.Entity<ParkingLot>().ToTable("Parking_Lots");
             
-            modelBuilder.Entity<Reservation>().ToTable("Reservations");
-            
             modelBuilder.Entity<Complaint>().ToTable("Complaints");
             
             modelBuilder.Entity<Penalty>().ToTable("Penalties");
+            
+            modelBuilder.Entity<Reservation>().ToTable("Reservations");
             
             modelBuilder.Entity<FavoriteParkingLot>()
                 .ToTable("FavoriteParkingLots")

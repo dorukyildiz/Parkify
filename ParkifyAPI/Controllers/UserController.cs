@@ -22,7 +22,6 @@ namespace ParkifyAPI.Controllers
             _configuration = configuration;
         }
 
-        // DTO Model for login
         public class LoginRequest
         {
             public string Email { get; set; }

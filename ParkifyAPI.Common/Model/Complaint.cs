@@ -22,8 +22,8 @@ namespace ParkifyAPI.Common.Model
         [Column("license_plate_detected")]
         public string LicensePlateDetected { get; set; }
 
-        [Column("image_path")]
-        public string ImagePath { get; set; }
+        [Column("image_data")]
+        public byte[] ImageData { get; set; }
 
         [Column("created_at")]
         public DateTime CreatedAt { get; set; }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cxDdiq7n2+A=",
+  "dgSpecHash": "G+dCARpT8SM=",
   "success": true,
   "projectFilePath": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/ParkifyAPI.Common.csproj",
   "expectedPackageFiles": [
@@ -90,6 +90,7 @@
     "/Users/dorukyildiz/.nuget/packages/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/dorukyildiz/.nuget/packages/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/dorukyildiz/.nuget/packages/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "/Users/dorukyildiz/.nuget/packages/swashbuckle.aspnetcore.swaggerui/8.1.4/swashbuckle.aspnetcore.swaggerui.8.1.4.nupkg.sha512",
     "/Users/dorukyildiz/.nuget/packages/system.appcontext/4.3.0/system.appcontext.4.3.0.nupkg.sha512",
     "/Users/dorukyildiz/.nuget/packages/system.buffers/4.6.0/system.buffers.4.6.0.nupkg.sha512",
     "/Users/dorukyildiz/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",

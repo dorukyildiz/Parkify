@@ -82,12 +82,11 @@ namespace ParkifyAPI.Controllers
             if (parkingSpace.IsReserved)
                 return BadRequest($"Parking space '{spaceNumber}' is already reserved.");
 
-            // Rezervasyonu yap
+            // Rezervasyon yap
             parkingSpace.IsReserved = true;
             parkingSpace.PlateNumber = user.LicensePlate;
             await _parkingSpacesRepository.UpdateAsync(parkingSpace);
 
-            // Reservations tablosuna ekle (15 dakika süreli)
             var reservation = new Reservation
             {
                 UserId = user.Id,

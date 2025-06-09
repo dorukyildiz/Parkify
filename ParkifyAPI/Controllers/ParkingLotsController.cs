@@ -18,7 +18,6 @@ namespace ParkifyAPI.Controllers
             _context = context;
         }
 
-        // Tüm otoparkları döner (kat bilgisi ve layout dahil)
         [HttpGet]
         public async Task<IActionResult> GetAllLots()
         {
@@ -39,7 +38,6 @@ namespace ParkifyAPI.Controllers
             return Ok(result);
         }
 
-        // Belirli bir otoparkı ID'ye göre döner (kat bilgisi ve layout dahil)
         [HttpGet("{id}")]
         public async Task<IActionResult> GetLotById(int id)
         {

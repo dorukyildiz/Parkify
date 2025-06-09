@@ -50,7 +50,47 @@ namespace ParkifyAPI.Controllers
 
             return Ok(result);
         }
+        
+        [HttpGet("GetUserReservationsWithLotName")]
+        public async Task<IActionResult> GetUserReservationsWithLotName(string licensePlate)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.LicensePlate == licensePlate);
+            if (user == null)
+                return NotFound("User not found.");
 
+            var now = DateTime.UtcNow;
+
+            // Süresi dolmuş aktif rezervasyonları pasif hale getir
+            var expiredReservations = await _context.Reservations
+                .Where(r => r.UserId == user.Id && r.IsActive && r.EndTime < now)
+                .ToListAsync();
+
+            foreach (var r in expiredReservations)
+                r.IsActive = false;
+
+            await _context.SaveChangesAsync();
+
+            // Kullanıcının tüm rezervasyonlarını lot bilgisi ile birlikte getir
+            var reservations = await _context.Reservations
+                .Where(r => r.UserId == user.Id)
+                .Join(_context.ParkingLots,
+                    reservation => reservation.LotId,
+                    lot => lot.LotId,
+                    (reservation, lot) => new
+                    {
+                        reservation.LotId,
+                        LotName = lot.Name,
+                        reservation.SpaceNumber,
+                        reservation.StartTime,
+                        reservation.EndTime,
+                        Status = reservation.IsActive ? "Active" : "Expired"
+                    })
+                .OrderByDescending(r => r.StartTime)
+                .ToListAsync();
+
+            return Ok(reservations);
+        }
+        
         [HttpGet("HasActiveReservation")]
         public async Task<IActionResult> HasActiveReservation(string licensePlate)
         {

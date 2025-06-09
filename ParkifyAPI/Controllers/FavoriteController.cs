@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using ParkifyAPI.Common.Model;
 using ParkifyAPI.Data.Contexts;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace ParkifyAPI.Controllers
 {
@@ -16,7 +18,7 @@ namespace ParkifyAPI.Controllers
             _context = context;
         }
 
-        // Favori ekleme (sadece userEmail ve lotId)
+        // Favori ekleme
         [HttpPost("addFavorite")]
         public IActionResult AddFavorite([FromQuery] string userEmail, [FromQuery] int lotId)
         {
@@ -47,26 +49,27 @@ namespace ParkifyAPI.Controllers
         }
 
         // Favorileri listeleme
-        [HttpGet("get/{userId}")]
-        public IActionResult GetFavorites(int userId)
+        [HttpGet("getFavorites/{userId}")]
+        public async Task<IActionResult> GetFavorites(int userId)
         {
-            var favorites = _context.FavoriteParkingLots
+            var favorites = await _context.FavoriteParkingLots
+                .Include(f => f.Lot)
                 .Where(f => f.UserId == userId)
                 .Select(f => new
                 {
-                    f.LotId,
-                    f.Lot.Name,
-                    f.Lot.Location,
-                    f.Lot.TotalSpots,
-                    f.Lot.NumOfFloors,
-                    f.Lot.Layout
+                    lotId = f.Lot.LotId,
+                    name = f.Lot.Name,
+                    location = f.Lot.Location,
+                    totalSpots = f.Lot.TotalSpots
                 })
-                .ToList();
+                .ToListAsync();
 
             return Ok(favorites);
         }
 
-        // Favori silme (sadece userEmail ve lotId)
+
+
+        // Favori silme
         [HttpDelete("removeFavorite")]
         public IActionResult RemoveFavorite([FromQuery] string userEmail, [FromQuery] int lotId)
         {

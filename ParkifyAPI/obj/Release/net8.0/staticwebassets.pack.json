@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/08dcf4ff-6394-4443-acfd-558fbc34e532.jpg",
+      "PackagePath": "staticwebassets/images/complaints/08dcf4ff-6394-4443-acfd-558fbc34e532.jpg"
+    },
+    {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg",
+      "PackagePath": "staticwebassets/images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg"
+    },
+    {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg",
+      "PackagePath": "staticwebassets/images/complaints/1b03036c-f32b-4c9b-8215-e4a0483776ad.jpg"
+    },
+    {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31.jpg",
+      "PackagePath": "staticwebassets/images/complaints/24ad4214-84f2-4bb8-b673-888011b8bc31.jpg"
+    },
+    {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg",
+      "PackagePath": "staticwebassets/images/complaints/25489a8a-ae8c-40bc-bf12-6ae3ad76edd7.jpg"
+    },
+    {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg",
+      "PackagePath": "staticwebassets/images/complaints/7665c9eb-8b3f-4d49-97e9-79c681e90a7b.jpg"
+    },
+    {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg",
+      "PackagePath": "staticwebassets/images/complaints/8e5542f0-8896-4ab8-a6d1-ad92b5bc8f55.jpg"
+    },
+    {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg",
+      "PackagePath": "staticwebassets/images/complaints/98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg"
+    },
+    {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/ec133a56-450a-4826-b2ec-93717fd8c684.jpg",
+      "PackagePath": "staticwebassets/images/complaints/ec133a56-450a-4826-b2ec-93717fd8c684.jpg"
+    },
+    {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/fde6e059-e256-45c1-890e-11c63d582985.jpg",
+      "PackagePath": "staticwebassets/images/complaints/fde6e059-e256-45c1-890e-11c63d582985.jpg"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.ParkifyAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.ParkifyAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.build.ParkifyAPI.props",
+      "PackagePath": "build\\ParkifyAPI.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.ParkifyAPI.props",
+      "PackagePath": "buildMultiTargeting\\ParkifyAPI.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.ParkifyAPI.props",
+      "PackagePath": "buildTransitive\\ParkifyAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

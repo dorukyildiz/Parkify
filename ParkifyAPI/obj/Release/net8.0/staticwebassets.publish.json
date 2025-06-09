@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "xYfrGSLqBOyUwjcx3xAJzG/3iTB0Btugyxs6f+lAFfQ=",
+  "Source": "ParkifyAPI",
+  "BasePath": "_content/ParkifyAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ParkifyAPI/wwwroot",
+      "Source": "ParkifyAPI",
+      "ContentRoot": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/",
+      "BasePath": "_content/ParkifyAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

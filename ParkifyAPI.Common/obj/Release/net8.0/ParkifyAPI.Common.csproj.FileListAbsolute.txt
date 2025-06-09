@@ -1,0 +1,13 @@
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/bin/Release/net8.0/ParkifyAPI.Common.deps.json
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/bin/Release/net8.0/ParkifyAPI.Common.dll
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/bin/Release/net8.0/ParkifyAPI.Common.pdb
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Release/net8.0/ParkifyAPI.Common.csproj.AssemblyReference.cache
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Release/net8.0/ParkifyAPI.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Release/net8.0/ParkifyAPI.Common.AssemblyInfoInputs.cache
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Release/net8.0/ParkifyAPI.Common.AssemblyInfo.cs
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Release/net8.0/ParkifyAPI.Common.csproj.CoreCompileInputs.cache
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Release/net8.0/ParkifyAPI.Common.sourcelink.json
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Release/net8.0/ParkifyAPI.Common.dll
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Release/net8.0/refint/ParkifyAPI.Common.dll
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Release/net8.0/ParkifyAPI.Common.pdb
+/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI.Common/obj/Release/net8.0/ref/ParkifyAPI.Common.dll

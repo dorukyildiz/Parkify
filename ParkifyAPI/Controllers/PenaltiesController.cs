@@ -77,7 +77,7 @@ namespace ParkifyAPI.Controllers
                 p.PenaltyPoints,
                 p.CreatedAt,
                 ComplaintId = p.ComplaintId,
-                ImageUrl = p.Complaint.ImagePath
+                ImageBase64 = p.Complaint.ImageData != null ? Convert.ToBase64String(p.Complaint.ImageData) : null,
             });
 
             return Ok(result);

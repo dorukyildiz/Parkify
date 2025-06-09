@@ -47,6 +47,10 @@
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
               "version": "[2.3.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[8.1.4, )"
             }
           },
           "imports": [
@@ -130,6 +134,10 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[8.1.4, )"
             }
           },
           "imports": [
@@ -198,6 +206,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[8.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

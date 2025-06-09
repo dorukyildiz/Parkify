@@ -34,6 +34,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddHostedService<ReservationCleanupService>();
 
+builder.Services.AddHttpClient();
+
+
 
 builder.Services.AddCors(options =>
 {
@@ -54,14 +57,17 @@ builder.Services.AddDbContext<ParkifyDbContext>(options =>
     )
 );
 
+builder.WebHost.UseUrls("http://0.0.0.0:5181");
+
+
 var app = builder.Build();
 
 // Middleware pipeline
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 app.UseStaticFiles();
 

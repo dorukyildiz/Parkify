@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j6WWCTO3GtI=",
+  "dgSpecHash": "JG52kaB3Ww0=",
   "success": true,
   "projectFilePath": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/ParkifyAPI.csproj",
   "expectedPackageFiles": [
@@ -99,7 +99,7 @@
     "/Users/dorukyildiz/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "/Users/dorukyildiz/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "/Users/dorukyildiz/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
-    "/Users/dorukyildiz/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "/Users/dorukyildiz/.nuget/packages/swashbuckle.aspnetcore.swaggerui/8.1.4/swashbuckle.aspnetcore.swaggerui.8.1.4.nupkg.sha512",
     "/Users/dorukyildiz/.nuget/packages/system.buffers/4.6.0/system.buffers.4.6.0.nupkg.sha512",
     "/Users/dorukyildiz/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/dorukyildiz/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",

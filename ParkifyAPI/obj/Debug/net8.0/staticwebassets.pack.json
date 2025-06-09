@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/08dcf4ff-6394-4443-acfd-558fbc34e532.jpg",
+      "PackagePath": "staticwebassets/images/complaints/08dcf4ff-6394-4443-acfd-558fbc34e532.jpg"
+    },
+    {
       "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg",
       "PackagePath": "staticwebassets/images/complaints/112365f4-54e5-4251-bdd2-8623fb83c6f0.jpg"
     },
@@ -27,6 +31,10 @@
     {
       "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg",
       "PackagePath": "staticwebassets/images/complaints/98f773ef-4491-4cca-bc3f-041a4ce2fbdf.jpg"
+    },
+    {
+      "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/ec133a56-450a-4826-b2ec-93717fd8c684.jpg",
+      "PackagePath": "staticwebassets/images/complaints/ec133a56-450a-4826-b2ec-93717fd8c684.jpg"
     },
     {
       "Id": "/Users/dorukyildiz/RiderProjects/ParkifyAPI/ParkifyAPI/wwwroot/images/complaints/fde6e059-e256-45c1-890e-11c63d582985.jpg",
